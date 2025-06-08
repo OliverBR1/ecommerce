@@ -1,6 +1,7 @@
 package olivertech.ecommerce;
 
 public class Message<T> {
+
     private final CorrelationId id;
     private final T payload;
 

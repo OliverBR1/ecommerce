@@ -3,6 +3,7 @@ package olivertech.ecommerce;
 import java.util.UUID;
 
 public class CorrelationId {
+
     private final String id;
 
     CorrelationId(String title) {

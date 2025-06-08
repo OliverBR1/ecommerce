@@ -1,6 +1,7 @@
 package olivertech.ecommerce;
 
 public class User {
+
     private final String uuid;
 
     public User(String uuid) {

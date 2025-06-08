@@ -1,5 +1,7 @@
 package olivertech.ecommerce;
 
+import olivertech.ecommerce.consumer.KafkaService;
+import olivertech.ecommerce.dispatcher.KafkaDispatcher;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
 import java.sql.Connection;
@@ -11,6 +13,7 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 public class BatchSendMessageService {
+
     private final Connection connection;
 
     BatchSendMessageService() throws SQLException {

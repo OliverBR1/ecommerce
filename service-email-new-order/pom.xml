@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>service-fraud-detector</artifactId>
+    <artifactId>service-email-new-order</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -20,12 +20,6 @@
         <dependency>
             <groupId>olivertech</groupId>
             <artifactId>common-kafka</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>olivertech</groupId>
-            <artifactId>common-database</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

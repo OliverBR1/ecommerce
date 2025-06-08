@@ -1,5 +1,7 @@
 package olivertech.ecommerce;
 
+import olivertech.ecommerce.dispatcher.KafkaDispatcher;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -8,6 +10,7 @@ import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 
 public class GenerateAllReportsServlet extends HttpServlet {
+
     private final KafkaDispatcher<String> batchDispatcher = new KafkaDispatcher<>();
 
     @Override
